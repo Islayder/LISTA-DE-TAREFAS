@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" id="new-task-input" placeholder="Adicionar nova tarefa">
+            <button id="add-task-button">Adicionar</button>
+        </section>
+        <section>
+            <table id="task-table">
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="task-list">
+                   <!-- TAREFAS AQUI -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="rodape">
+          <p>LISTATAREFASISLAYDER</p>
+        </div>
+    </footer>
+    <script src="JS/app.js"></script>
+</body>
+</html>
